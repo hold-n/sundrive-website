@@ -108,3 +108,7 @@ font-size: 36px;
   margin-right: 10px; 
   cursor: pointer;
 }
+
+body > .container {
+  padding: 30px 15px 0;
+}
