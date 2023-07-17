@@ -1,0 +1,131 @@
+/*
+Green: 004600
+Orange: FF6C00
+White: FFFFFF
+Black: 000000
+*/
+body {
+    width: 100%;
+    height: 100%;
+font-family:calibri;
+text-align: left;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 2px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #FFF;
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #337AB7;
+    color: #FFF;
+}
+.welcome-section {
+    padding-top: 30px;  
+}
+.about-section {
+    padding-top: 30px;  
+}
+.practice-section {
+    padding-top: 30px;      
+}
+.contact-section {
+ padding-top: 30px;
+}
+.gallery-section {
+ padding-top: 30px;
+}
+.sundrive-section {
+ padding-top: 30px;
+}
+.activities-section {
+ padding-top: 30px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+color: #ffffff;
+background-color: #F0F0F0;
+}
+.navbar-default {
+    background-color: #004600;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.fa {
+  padding: 1px;
+  font-size: 30px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #004600
+}
+.h1, h1 {
+color: #0C4B32
+}
+
+.h2, h2 {
+color: #0C4B32
+font-size: 36px;
+}
+/*Gallery */
+
+.intro { 
+  text-align: center; 
+  font-family: Arial;
+}
+
+
+#image-gallery { 
+  width: 600px; 
+  margin: 0 auto;
+}
+
+#current-image { 
+  width: 100%;
+} 
+
+#image-thumbs {   
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.thumb { 
+  width: 80px; 
+  height: 80px; 
+  object-fit: cover; 
+  margin-right: 10px; 
+  cursor: pointer;
+}
+
