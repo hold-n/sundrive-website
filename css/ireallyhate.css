@@ -50,27 +50,7 @@ html {
     background-color: #337AB7;
     color: #FFF;
 }
-.welcome-section {
-    padding-top: 30px;  
-}
-.about-section {
-    padding-top: 30px;  
-}
-.practice-section {
-    padding-top: 30px;      
-}
-.contact-section {
- padding-top: 30px;
-}
-.gallery-section {
- padding-top: 30px;
-}
-.sundrive-section {
- padding-top: 30px;
-}
-.activities-section {
- padding-top: 30px;
-}
+
 .navbar-default .navbar-nav > li > a:hover {
 color: #ffffff;
 background-color: #F0F0F0;
@@ -128,4 +108,3 @@ font-size: 36px;
   margin-right: 10px; 
   cursor: pointer;
 }
-
