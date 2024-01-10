@@ -1,14 +1,15 @@
-/*
-Green: 004600
-Orange: FF6C00
-White: FFFFFF
-Black: 000000
-*/
+:root {
+    --sundrive-green: #004600;
+    --sundrive-orange: #ff6c00;
+    --sundrive-white: #ffffff;
+    --sundrive-black: #000000;
+}
+
 body {
     width: 100%;
     height: 100%;
-font-family:calibri;
-text-align: left;
+    font-family:calibri;
+    text-align: left;
 }
 html {
     width: 100%;
@@ -40,75 +41,74 @@ html {
     position: fixed;
     bottom: 50px;
     right: 0;
-    background-color: #FFF;
-    color: #ffff;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 #back2Top:hover {
     background-color: #337AB7;
-    color: #FFF;
+    color: var(--sundrive-white);
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-color: #ffffff;
-background-color: #F0F0F0;
+    color: var(--sundrive-white);
+    background-color: #F0F0F0;
 }
 .navbar-default {
-    background-color: #004600;
+    background-color: var(--sundrive-green);
     border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #ffffff;
+    color: var(--sundrive-white);
 }
 .fa {
-  padding: 1px;
-  font-size: 30px;
-  width: 10%;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  color: #004600
+    padding: 1px;
+    font-size: 30px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: var(--sundrive-green);
 }
 .h1, h1 {
-color: #0C4B32
+    color: #0C4B32
 }
 
 .h2, h2 {
-color: #0C4B32
-font-size: 36px;
+    color: #0C4B32
+    font-size: 36px;
 }
 /*Gallery */
 
-.intro { 
-  text-align: center; 
-  font-family: Arial;
+.intro {
+    text-align: center;
+    font-family: Arial;
 }
 
 
-#image-gallery { 
-  width: 600px; 
-  margin: 0 auto;
+#image-gallery {
+    width: 600px;
+    margin: 0 auto;
 }
 
-#current-image { 
-  width: 100%;
-} 
-
-#image-thumbs {   
-  justify-content: center; 
-  margin-top: 20px;
+#current-image {
+    width: 100%;
 }
 
-.thumb { 
-  width: 80px; 
-  height: 80px; 
-  object-fit: cover; 
-  margin-right: 10px; 
-  cursor: pointer;
+#image-thumbs {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 body > .container {
-  padding: 30px 15px 0;
+    padding: 30px 15px 0;
 }
+
