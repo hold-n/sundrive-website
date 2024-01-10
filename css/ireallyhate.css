@@ -112,3 +112,8 @@ body > .container {
     padding: 30px 15px 0;
 }
 
+.main-video {
+    width: 560px;
+    max-width: 100%;
+    height: 315px;
+}
