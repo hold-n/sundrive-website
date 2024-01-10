@@ -1,17 +1,22 @@
-var imageThumbs = document.getElementById("image-thumbs");
-var currentImage = document.getElementById("current-image");
+const imageThumbs = document.getElementById("image-thumbs");
+const currentImage = document.getElementById("current-image");
 
-for (var i = 1; i < 13; i++) {
-	var thumb = document.createElement("img");
-	thumb.src = "img/gallery/" + i + ".JPG";
-	thumb.alt = "Image " + i;
+const TOTAL_IMAGES = 12;
+
+for (let i = 1; i <= TOTAL_IMAGES; i++) {
+	const thumb = document.createElement("img");
+	thumb.src = `img/gallery/${i}.JPG`;
+	thumb.alt = `Image ${i}`;
 	thumb.classList.add("thumb");
+	thumb.addEventListener("click", () => highlight(thumb));
+
 	imageThumbs.appendChild(thumb);
-	
-	thumb.addEventListener(
-		"click", function() {
-			currentImage.src = this.src;
-			currentImage.alt = this.alt;
-			}
-		);
 }
+
+function highlight(thumb) {
+	currentImage.src = thumb.src;
+	currentImage.alt = thumb.alt;
+}
+
+const first = imageThumbs[0];
+highlight(first.src, first.alt);
