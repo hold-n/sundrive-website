@@ -18,5 +18,5 @@ function highlight(thumb) {
 	currentImage.alt = thumb.alt;
 }
 
-const first = imageThumbs[0];
-highlight(first.src, first.alt);
+const first = imageThumbs.firstChild;
+highlight(first);
