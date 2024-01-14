@@ -38,6 +38,11 @@ html {
 .navbar-default .navbar-nav > li > a {
     color: var(--sundrive-white);
 }
+
+.navbar-brand img {
+    height: inherit;
+    margin-top: -15px;
+}
 .fa {
     padding: 1px;
     font-size: 30px;
