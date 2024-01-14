@@ -1,7 +1,7 @@
 :root {
     --sundrive-green: #004600;
     --sundrive-orange: #ff6c00;
-    --sundrive-white: #ffffff;
+    --sundrive-white: #f0f0f0;
     --sundrive-black: #000000;
 }
 
@@ -30,11 +30,10 @@ html {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: var(--sundrive-black);
-    background-color: #F0F0F0;
+    background-color: var(--sundrive-white);
 }
 .navbar-default {
     background-color: var(--sundrive-green);
-    border-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > li > a {
     color: var(--sundrive-white);
@@ -49,11 +48,9 @@ html {
     color: var(--sundrive-green);
 }
 .h1, h1 {
-    color: #0C4B32;
 }
 
 .h2, h2 {
-    color: #0C4B32;
     font-size: 36px;
 }
 /*Gallery */
