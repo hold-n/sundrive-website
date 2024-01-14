@@ -29,7 +29,7 @@ html {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: var(--sundrive-white);
+    color: var(--sundrive-black);
     background-color: #F0F0F0;
 }
 .navbar-default {
