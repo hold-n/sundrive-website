@@ -43,6 +43,26 @@ html {
     height: inherit;
     margin-top: -15px;
 }
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    min-height: 450px;
+    color: var(--sundrive-white);
+}
+
+.jumbotron img {
+    position: absolute;
+    width: 100%;
+    filter: blur(1.5px);
+    object-fit: cover;
+    margin-top: -20px;
+}
+
+.jumbotron .container {
+    position: relative;
+}
+
 .fa {
     padding: 1px;
     font-size: 30px;
