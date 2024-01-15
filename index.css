@@ -47,6 +47,8 @@ html {
 .jumbotron {
     position: relative;
     overflow: hidden;
+
+    /* Make it work for narrow screens */
     min-height: 450px;
     color: var(--sundrive-white);
 }
@@ -72,11 +74,15 @@ html {
     border-radius: 50%;
     color: var(--sundrive-green);
 }
-.h1, h1 {
-}
 
 .h2, h2 {
     font-size: 36px;
+}
+
+.google-maps {
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 4 / 3;
 }
 /*Gallery */
 
@@ -84,14 +90,13 @@ html {
     text-align: center;
 }
 
-
 #image-gallery {
-    width: 600px;
     margin: 0 auto;
 }
 
 #current-image {
     width: 100%;
+    max-width: 1000px;
 }
 
 #image-thumbs {
